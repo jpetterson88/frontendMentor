@@ -1,4 +1,4 @@
-<h1>Projetcs</h1>
+<h1>Challanges</h1>
 <ul>
-  <li><a href="https://jpetterson88.github.io/frontendMentor/recipe-page-menu">Recipe Page Menu</li>
+  <li><a href="https://jpetterson88.github.io/frontendMentor/recipe-page-main">Recipe Page</li>
 </ul>
