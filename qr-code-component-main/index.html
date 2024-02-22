@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      background-color: hsl(212, 45%, 89%);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    main {
+      background-color: hsl(0, 0%, 100%);
+      padding: 1rem;
+      margin: 0 1rem;
+      max-width: 320px;
+      border-radius: 25px;
+    }
+    
+    .qrcode_image img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+    }
+
+    .qrcode_text {
+      font-family: "Outfit", sans-serif;
+      text-align: center;
+    }
+
+    .qrcode_text h1 {
+      color: hsl(218, 44%, 22%);
+      font-size: 1.4em;
+      padding: 1.5rem 1rem 0;
+    }
+
+    .qrcode_text p {
+      color: hsl(220, 15%, 55%);
+      font-size: 15px;
+      padding: 1.2rem 1rem;
+    }
+    
+    .attribution { font-size: 11px; text-align: center; padding-top: 1.2rem;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="qrcode_image">
+      <figure>
+        <img src="./images/image-qr-code.png" alt="qrcode picture" width="400" height="400">
+      </figure>
+    </section>
+    <section class="qrcode_text">
+      <h1>Improve your front-end skills by building projects</h1>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </section>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/jpetterson88">John Peterson</a>.
+    </div>
+  </footer>
+</body>
+</html>
