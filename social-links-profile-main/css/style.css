@@ -101,4 +101,8 @@ main a:hover {
   main {
     min-width: 285px;
   }
+
+  main p {
+    white-space: nowrap;
+  }
 }
