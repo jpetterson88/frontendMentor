@@ -33,10 +33,10 @@ body {
 
 main {
   background-color: var(--dark-grey);
-  min-width: 338px;
+  min-width: 390px;
   border-radius: 10px;
   text-align: center;
-  padding: 1.5rem;
+  padding: 2.4rem;
   margin: 1rem;
   font-size: 14px;
 }
@@ -90,9 +90,15 @@ main a:hover {
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media screen and (min-width: 425px) {
+@media screen and (max-width: 424px) {
   main {
-    padding: 2.4rem;
-    min-width: 390px;
+    padding: 1.5rem;
+    min-width: 338px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  main {
+    min-width: 285px;
   }
 }
