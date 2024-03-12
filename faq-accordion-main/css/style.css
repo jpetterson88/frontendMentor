@@ -1,11 +1,48 @@
+@font-face {
+  font
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.button {
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-pink: hsl(275, 100%, 97%);
+  --grayish-purple: hsl(292, 16%, 49%);
+  --dark-purple: hsl(292, 42%, 14%);
+}
+
+body {
+  min-height: 100vh;
+  background: var(--light-pink) url("../assets/images/background-pattern-desktop.svg");
+  background-size: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: var(--white);
+  flex-basis: 720px;
+  height: 480px;
+  padding: 1.5rem;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+svg {
   float: right;
+}
+
+main h1::before {
+  content: url("../assets/images/icon-star.svg");
 }
 
 .attribution { font-size: 11px; text-align: center; }
