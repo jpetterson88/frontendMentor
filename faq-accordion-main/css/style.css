@@ -78,6 +78,7 @@ p {
   padding-bottom: 1.4rem;
   color: var(--grayish-purple);
   font-size: 0.9rem;
+  display: none;
 }
 
 p:last-child {
