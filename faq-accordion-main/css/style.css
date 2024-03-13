@@ -1,5 +1,6 @@
 @font-face {
-  font
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-VariableFont_wght.ttf");
 }
 
 * {
@@ -19,6 +20,7 @@ body {
   min-height: 100vh;
   background: var(--light-pink) url("../assets/images/background-pattern-desktop.svg");
   background-size: 100%;
+  font-family: "Work Sans", sans-serif;
 
   display: flex;
   justify-content: center;
@@ -27,22 +29,63 @@ body {
 
 main {
   background-color: var(--white);
-  flex-basis: 720px;
-  height: 480px;
-  padding: 1.5rem;
-  border-radius: 8px;
+  flex-basis: 540px;
+  min-height: 480px;
+  margin: 1.5rem;
+  padding: 2.2rem;
+  border-radius: 13px;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-svg {
-  float: right;
+h1, h2 {
+  color: var(--dark-purple);
+  /* border: 1px solid black; */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-main h1::before {
-  content: url("../assets/images/icon-star.svg");
+h1 {
+  font-size: 3rem;
+  justify-content: start;
+  margin-bottom: 0.6rem;
+}
+
+h1 svg {
+  margin-right: 1.2rem;
+  height: 35px;
+}
+
+svg {
+  height: 27px;
+}
+
+h2 {
+  font-size: 1rem;
+  padding: 1.2rem 0;
+  cursor: pointer;
+}
+
+h2:last-child {
+  padding-bottom: 0;
+}
+
+p {
+  padding-bottom: 1.4rem;
+  color: var(--grayish-purple);
+  font-size: 0.9rem;
+}
+
+p:last-child {
+  padding-bottom: 0;
+}
+
+hr {
+  opacity: 0.150;
 }
 
 .attribution { font-size: 11px; text-align: center; }
