@@ -7,9 +7,9 @@ question.forEach((item, index) => {
     const toggleText = text[index].classList.toggle("newText");
     text[index].style.display = toggleText ? "inline" : "none";
 
-    const changeIcon = image[index + 1].classList.toggle("plusIcon");
+    const changeIcon = image[index + 1].classList.toggle("minusIcon");
     image[index + 1].src = changeIcon
-      ? "./assets/images/icon-plus.svg"
-      : "./assets/images/icon-minus.svg";
+      ? "./assets/images/icon-minus.svg"
+      : "./assets/images/icon-plus.svg";
   });
 });

@@ -20,7 +20,7 @@
 body {
   min-height: 100vh;
   background: var(--light-pink) url("../assets/images/background-pattern-desktop.svg") no-repeat;
-  background-size: 100%;
+  background-size: max(100vw, 1600px);
   font-family: "Work Sans", sans-serif;
 
   display: flex;
@@ -43,8 +43,6 @@ main {
 
 h1, h2 {
   color: var(--dark-purple);
-  /* border: 1px solid black; */
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,12 +54,13 @@ h1 {
 }
 
 h1 img {
-  margin-right: 1.2rem;
+  margin: 0 1.2rem 0 0;
   height: 35px;
 }
 
 img {
   height: 28px;
+  margin-left: 1.1rem;
 }
 
 h2 {
@@ -89,5 +88,26 @@ hr {
   opacity: 0.150;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+@media screen and (max-width: 425px) {
+  body {
+    background: var(--light-pink) url("../assets/images/background-pattern-mobile.svg") no-repeat;
+    background-size: min(100vw, 425px);
+  }
+
+  main {
+    padding: 1.5rem 1.5rem 0.8rem 1.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h1 img {
+    margin: 0 1.3rem 0 0;
+    height: 25px;
+  }
+
+  p {
+    line-height: 1.3rem;
+  }
+}
