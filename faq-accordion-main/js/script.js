@@ -11,5 +11,8 @@ question.forEach((item, index) => {
     image[index + 1].src = changeIcon
       ? "./assets/images/icon-minus.svg"
       : "./assets/images/icon-plus.svg";
+    image[index + 1].alt = changeIcon
+      ? "icon minus picture"
+      : "plus minus picture";
   });
 });
