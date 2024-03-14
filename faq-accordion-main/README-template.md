@@ -44,6 +44,6 @@ Users should be able to:
 
 ## Author
 
-- Github - [](https://github.com/jpetterson88)
-- Frontend Mentor - [](https://www.frontendmentor.io/profile/jpetterson88)
-- Linkedin - [](https://www.linkedin.com/in/johnpeterson88/)
+- Github - [My profile](https://github.com/jpetterson88)
+- Frontend Mentor - [@jpetterson88](https://www.frontendmentor.io/profile/jpetterson88)
+- Linkedin - [My profile](https://www.linkedin.com/in/johnpeterson88/)
