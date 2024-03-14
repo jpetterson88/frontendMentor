@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/jpetterson88/frontendMentor/tree/main/faq-accordion-main)
-- Live Site URL: (https://jpetterson88.github.io/frontendMentor/faq-accordion-main/index.html)
+- Solution URL: [Add solution URL here](https://github.com/jpetterson88/frontendMentor/tree/main/faq-accordion-main)
+- Live Site URL: [Add live site URL here](https://jpetterson88.github.io/frontendMentor/faq-accordion-main/index.html)
 
 ## My process
 
@@ -44,6 +44,6 @@ Users should be able to:
 
 ## Author
 
-- Github - (https://github.com/jpetterson88)
-- Frontend Mentor - [@jpetterson88](https://www.frontendmentor.io/profile/jpetterson88)
-- Linkedin - (https://www.linkedin.com/in/johnpeterson88/)
+- Github - [](https://github.com/jpetterson88)
+- Frontend Mentor - [](https://www.frontendmentor.io/profile/jpetterson88)
+- Linkedin - [](https://www.linkedin.com/in/johnpeterson88/)
