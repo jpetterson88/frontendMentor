@@ -97,6 +97,7 @@ hr {
 
   main {
     padding: 1.5rem 1.5rem 0.8rem 1.5rem;
+    min-height: 480px;
   }
 
   h1 {
@@ -106,5 +107,13 @@ hr {
   h1 img {
     margin: 0 1.3rem 0 0;
     height: 25px;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
   }
 }
