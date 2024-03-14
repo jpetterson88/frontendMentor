@@ -31,7 +31,7 @@ body {
 main {
   background-color: var(--white);
   flex-basis: 616px;
-  min-height: 552px;
+  min-height: 560px;
   margin: 1.5rem;
   padding: 2.2rem 2.2rem 1.6rem 2.2rem;
   border-radius: 13px;
@@ -50,22 +50,21 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 3.2rem;
+  font-size: 3.5rem;
   justify-content: start;
 }
 
 h1 img {
-  margin: 0 1.2rem 0 0;
-  height: 38px;
+  margin: 0 1.5rem 0 0;
 }
 
 img {
-  height: 30px;
   margin-left: 1.1rem;
 }
 
 h2 {
   font-size: 1.2rem;
+  font-weight: 600;
   padding: 1.2rem 0;
   cursor: pointer;
 }
