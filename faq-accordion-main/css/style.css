@@ -20,7 +20,7 @@
 body {
   min-height: 100vh;
   background: var(--light-pink) url("../assets/images/background-pattern-desktop.svg") no-repeat;
-  background-size: max(100vw, 1600px);
+  background-size: max(1440px, 100%);
   font-family: "Work Sans", sans-serif;
 
   display: flex;
@@ -91,7 +91,7 @@ hr {
 @media screen and (max-width: 425px) {
   body {
     background: var(--light-pink) url("../assets/images/background-pattern-mobile.svg") no-repeat;
-    background-size: min(100vw, 425px);
+    background-size: 425px;
   }
 
   main {
