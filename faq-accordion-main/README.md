@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./faq-solution-screenshot.png)
+![](./FAQ-accordion.png)
 
 ### Links
 
