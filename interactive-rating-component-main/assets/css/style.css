@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Overpass';
+  src: url('../fonts/Overpass-VariableFont_wght.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* primary colors */
+  --orange: hsl(25, 97%, 53%);
+
+  /* neutral colors */
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+}
+
+body {
+  background-color: var(--very-dark-blue);
+  color: var(--light-grey);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  margin: 1.5rem;
+}
+
+.rating-component {
+  background-color: var(--dark-blue);
+  padding: 1.4rem;
+  width: 328px;
+  height: 340px;
+  border-radius: 15px;
+}
+
+.thank-you-display {
+  display: none;
+}

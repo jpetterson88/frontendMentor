@@ -5,10 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
   <main class="rating-component">
     <section class="rating-display">
+      <figure class="icon-star">
+        <img src="./assets/images/icon-star.svg" alt="star">
+      </figure>
       <h1>How did we do?</h1>
       <p>
         Please let us know how we did with your support request. All feedback is appreciated
@@ -66,7 +70,10 @@
     </section>
     
     <section class="thank-you-display">
-      <span class="selected-option">You selected <!-- Add rating here --> out of 5</span>
+      <figure>
+        <img src="./assets/images/illustration-thank-you.svg" alt="bill receipt">
+        <p>You selected <span class="selected-option"></span> out of 5</p>
+      </figure>
       <h1>Thank you!</h1>
       <p>
         We appreciate you taking the time to give a rating. If you ever need more support,
