@@ -61,7 +61,6 @@ body {
 }
 
 .icon-star {
-  display: inline-block;
   background-color: hsla(216, 12%, 54%, 0.150);
   border-radius: 50%;
   width: 38px;
@@ -131,6 +130,30 @@ body {
   color: var(--orange);
 }
 
-.thank-you-display {
+.first-page {
+  display: block;
+}
+
+.second-page {
   display: none;
+}
+
+.thank-you-display {
+  text-align: center;
+}
+
+.thank-you-display figure {
+  margin-top: .3rem;
+}
+
+.message h1 {
+  margin-bottom: .7rem;
+}
+
+.selected-option p {
+  display: inline;
+  background-color: var(--dark-blue);
+  color: hsl(25, 76%, 61%);
+  padding: .6rem .7rem .4rem .7rem;
+  border-radius: 2rem;
 }

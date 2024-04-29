@@ -6,9 +6,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Interactive rating component</title>
   <link rel="stylesheet" href="./assets/css/style.css">
+  <script defer src="./assets/js/index.js"></script>
 </head>
 <body>
-  <main class="rating-component">
+  <div class="rating-component first-page">
     <section class="rating-display">
       <figure class="icon-star">
         <img src="./assets/images/icon-star.svg" alt="star">
@@ -24,7 +25,7 @@
           <input 
             type="radio" 
             name="number" 
-            value="one"
+            value="1"
             />
           <span class="label">1</span>
         </li>
@@ -33,7 +34,7 @@
           <input 
             type="radio" 
             name="number" 
-            value="two"
+            value="2"
             />
           <span class="label">2</span>
         </li>
@@ -42,7 +43,7 @@
           <input 
             type="radio" 
             name="number" 
-            value="three"
+            value="3"
             />
           <span class="label">3</span>
         </li>
@@ -51,7 +52,7 @@
           <input 
             type="radio" 
             name="number" 
-            value="four"
+            value="4"
             />
           <span class="label">4</span>
         </li>
@@ -60,7 +61,7 @@
           <input 
             type="radio" 
             name="number" 
-            value="five"
+            value="5"
             />
           <span class="label">5</span>
         </li>
@@ -68,18 +69,24 @@
       
       <button type="submit">Submit</button>
     </section>
-    
-    <section class="thank-you-display">
+  </div>
+  
+  <div class="rating-component second-page">
+    <section class="rating-display thank-you-display">
       <figure>
-        <img src="./assets/images/illustration-thank-you.svg" alt="bill receipt">
-        <p>You selected <span class="selected-option"></span> out of 5</p>
+        <img src="./assets/images/illustration-thank-you.svg" alt="bill receipt" width="145">
       </figure>
-      <h1>Thank you!</h1>
-      <p>
-        We appreciate you taking the time to give a rating. If you ever need more support,
-        don’t hesitate to get in touch!
-      </p>
+      <div class="selected-option">
+        <p>You selected <span>4</span> out of 5</p>
+      </div>
+      <div class="message">
+        <h1>Thank you!</h1>
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!
+        </p>
+      </div>
     </section>
-  </main>
+  </div>
 </body>
 </html>
