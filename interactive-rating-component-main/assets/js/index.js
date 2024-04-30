@@ -9,7 +9,6 @@ let input = null;
 option.forEach(number => {
   number.addEventListener('click', () => {
     input = number.value;
-    console.log(input);
   });
 });
 
