@@ -4,7 +4,7 @@ const firstPage = document.querySelector('.first-page');
 const secondPage = document.querySelector('.second-page');
 const value = document.querySelector('.selected-option span');
 
-let input = null;
+let input = option[3].value;
 
 option.forEach(number => {
   number.addEventListener('click', () => {
