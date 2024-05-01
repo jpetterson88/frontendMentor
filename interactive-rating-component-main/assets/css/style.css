@@ -111,6 +111,10 @@ body {
   color: var(--white);
 }
 
+.option:has(input:focus) {
+  outline: 1px solid var(--white);
+}
+
 .option:has(input:checked) {    
   background-color: var(--medium-grey);
   color: var(--white);
