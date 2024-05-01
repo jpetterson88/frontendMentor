@@ -17,4 +17,8 @@ button.addEventListener('click', () => {
 
   firstPage.style.display = 'none';
   secondPage.style.display = 'block';
+
+  setTimeout(() => {
+    location.reload();
+  }, 4000);
 });
