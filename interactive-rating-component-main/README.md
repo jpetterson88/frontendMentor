@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github repository](https://github.com/jpetterson88/frontendMentor/tree/main/interactive-rating-component)
-- Live Site URL: [Live Site](https://jpetterson88.github.io/frontendMentor/interactive-rating-component/index.html)
+- Solution URL: [Github repository](https://github.com/jpetterson88/frontendMentor/tree/main/interactive-rating-component-main)
+- Live Site URL: [Live Site](https://jpetterson88.github.io/frontendMentor/interactive-rating-component-main/index.html)
 
 ## My process
 
