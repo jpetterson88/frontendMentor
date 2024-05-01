@@ -24,20 +24,20 @@
 }
 
 body {
+  min-height: 100vh;
   background-color: var(--very-dark-blue);
   color: var(--light-grey);
 
   display: flex;
   justify-content: center;
   align-items: center;
-
-  min-height: 100vh;
-  margin: 1.2rem;
 }
 
 .rating-component {
-  background-image: linear-gradient(to bottom, hsl(213, 19%, 18%), hsla(213, 20%, 18%, 0.185));
+  background-color: hsla(213, 20%, 18%, 0.7);
+  /* background-image: linear-gradient(to top, hsl(213, 19%, 18%), hsla(213, 20%, 18%, 0.185)); */
   padding: 1rem 1.5rem 1.5rem 1.5rem;
+  margin: 1.2rem;
   width: 328px;
   height: 365px;
   border-radius: 15px;
@@ -73,6 +73,7 @@ body {
 .icon-star img {
   width: 14px;
   height: 14px;
+  margin-left: .1rem;
 }
 
 .options {
@@ -88,6 +89,7 @@ body {
   width: 42px;
   height: 42px;
   font-size: .85rem;
+  padding-top: .2rem;
 
   display: grid;
   place-content: center;
@@ -152,4 +154,49 @@ body {
   color: hsl(25, 76%, 61%);
   padding: .6rem .7rem .4rem .7rem;
   border-radius: 2rem;
+}
+
+@media screen and (min-width: 450px) {
+  .rating-component {
+    width: 412px;
+    height: 412px;
+    border-radius: 30px;
+    padding: 1.2rem 2rem;
+  }
+
+  .rating-display h1 {
+    font-size: 1.8rem;
+  }
+
+  .rating-display p {
+    font-size: .95rem;
+  }
+
+  .icon-star {
+    width: 49px;
+    height: 49px;
+  }
+
+  .icon-star img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .option {
+    width: 52px;
+    height: 52px;
+    font-size: .95rem;
+  }
+
+  .rating-display button {
+    font-size: .95rem;
+  }
+
+  .thank-you-display {
+    padding: .2rem;
+  }
+
+  .thank-you-display img {
+    width: 154px;
+  }
 }
