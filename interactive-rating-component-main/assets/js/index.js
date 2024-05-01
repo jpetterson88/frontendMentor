@@ -20,5 +20,5 @@ button.addEventListener('click', () => {
 
   setTimeout(() => {
     location.reload();
-  }, 4000);
+  }, 5000);
 });
