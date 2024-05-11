@@ -111,7 +111,7 @@ body {
   color: var(--white);
 }
 
-.option:has(input:focus) {
+.option:has(input:focus-visible) {
   outline: 1px solid var(--white);
 }
 
